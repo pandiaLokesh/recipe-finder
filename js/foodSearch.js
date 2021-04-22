@@ -1,5 +1,5 @@
 
-  const api_url = "https://api.spoonacular.com/recipes/complexSearch?apiKey=0e13e2bee28d4af2a5bfac40a122bc51&"
+  const api_url = "https://api.spoonacular.com/recipes/complexSearch?apiKey=975279a85c2f42e28d90e9a8c8b80fb9&"
 
   async function link(keyword){
     var srcurl=new Array();
@@ -11,7 +11,7 @@
 
       data.results.forEach(async (item)=>{
         let id=item.id;
-        let rurl="https://api.spoonacular.com/recipes/informationBulk?apiKey=0e13e2bee28d4af2a5bfac40a122bc51&ids="+id;
+        let rurl="https://api.spoonacular.com/recipes/informationBulk?apiKey=975279a85c2f42e28d90e9a8c8b80fb9&ids="+id;
         let res=await fetch(rurl);
         let inst=await res.json();
         var imageUrl =inst[0].image ; 
