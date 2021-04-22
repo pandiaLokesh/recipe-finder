@@ -25,3 +25,9 @@
    link(keyword);
    
  }
+
+ $(document).ready(function(){
+  $("#search").click(function(){
+  $("div").remove(".thumbnail");
+  });
+});
