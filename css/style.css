@@ -1,0 +1,103 @@
+body {
+	color: white;
+	text-align: center;
+	height:100%;
+	width:100%;
+	background: url(https://images4.alphacoders.com/104/thumb-1920-1044463.jpg);
+	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
+
+#keyword{
+	width: 290px;
+	border: none;
+	outline: none;
+	height:35px;
+
+	background-color: transparent;
+	margin-bottom: 60px;
+
+	margin-right: -4px;
+	color: white;
+}
+#search{
+		padding-top: 1px;
+		height: 35px;
+
+		outline: none;
+		background-color: transparent;
+		border: none;
+		font-size: 14px;
+		padding-right: 5px;
+		text-align: right;
+	
+}
+#back{
+	color:white;
+	background: transparent;
+	text-align: center;
+}
+
+#feed {
+	margin:0;
+	padding:0;
+}
+
+
+img {
+  opacity:0.7;
+  padding: 7px; 
+}
+
+#title{
+	padding-top: 0px;
+	margin-bottom:0;
+	color: white;
+	font-size: 120px;
+	font-family: Norican;
+	position: relative;
+
+}
+::placeholder{
+	color: white;
+	font-family: courgette;
+}
+p{
+	font-family: Courgette;
+}
+.wrapper{
+	border: 2px solid white;
+	display: inline-block;
+	height: 38px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+.thumbnail{
+	background-color: rgba(28, 27, 27,0.5);
+	border-radius: 25px;
+}
+img{
+border-radius: 25px;
+}
+
+
+.thumbnail a{
+	color:white;
+}
+.thumbnail:hover{
+	background-color: rgba(218, 219, 227,0.8);
+	transition: 0.2s linear;
+}
+.thumbnail:hover a{
+	color:black;
+}
+.thumbnail:hover img{
+opacity:1;
+}
+p a{
+color:yellowgreen;
+}
